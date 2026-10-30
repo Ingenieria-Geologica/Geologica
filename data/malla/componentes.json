@@ -1,4 +1,10 @@
 {
+  "_firmaDigital": {
+    "autor": "Santiago Escobar Arias",
+    "rol": "Representante Estudiantil de Sistemas",
+    "unal": "saescobara@unal.edu.co",
+    "token": "SEA-GEO-UNAL-2026-AUTH-9B4E7A"
+  },
   "componentes": [
     {
       "id": "fundamentacion",

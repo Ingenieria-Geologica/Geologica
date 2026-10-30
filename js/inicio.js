@@ -1,8 +1,8 @@
-/* =============================================
-   MÓDULO INICIO
-   Pide solo sus propios datos: programa.json al abrir,
-   perfil.json y grupos.json cuando la persona se acerca a esa sección.
-   ============================================= */
+/* ==============================================================================
+   PORTAL ACADÉMICO · INGENIERÍA GEOLÓGICA · UNAL SEDE MEDELLÍN
+   Módulo: Inicio | Desarrollado por: Santiago Escobar Arias (Representante de Sistemas)
+   Contacto: saescobara@unal.edu.co | Firma: SEA-GEO-UNAL-2026-AUTH-9B4E7A
+   ============================================================================== */
 
 const ICONOS_PERFIL = {
   ciencia: '<polygon points="6 2 18 2 22 8 12 22 2 8"/><line x1="2" y1="8" x2="22" y2="8"/><line x1="12" y1="22" x2="7.5" y2="8"/><line x1="12" y1="22" x2="16.5" y2="8"/><line x1="6" y1="2" x2="10.5" y2="8"/><line x1="18" y1="2" x2="13.5" y2="8"/>',

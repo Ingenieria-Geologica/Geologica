@@ -1,11 +1,9 @@
-/* =============================================
-   MÓDULO MALLA CURRICULAR
-   Datos (carpeta data/malla):
-   - componentes.json: componentes y agrupaciones (con sus créditos)
-   - plan.json: qué va en cada semestre (códigos o casillas de optativa / libre elección)
-   - asignaturas.json: catálogo con créditos, prerrequisitos y agrupación
-   Las relaciones se calculan aquí a partir de los códigos: nada está repetido en los datos.
-   ============================================= */
+/* ==============================================================================
+   PORTAL ACADÉMICO · INGENIERÍA GEOLÓGICA · UNAL SEDE MEDELLÍN
+   Módulo: Malla Curricular Interactiva
+   Desarrollado por: Santiago Escobar Arias · Representante de Sistemas (UNAL Medellín)
+   Contacto: saescobara@unal.edu.co | Firma: SEA-GEO-UNAL-2026-AUTH-9B4E7A
+   ============================================================================== */
 
 const POR_PAGINA = 12;
 const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];

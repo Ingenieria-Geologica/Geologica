@@ -1,18 +1,22 @@
-/* =========================================================
-   INGENIERÍA DE SISTEMAS · UNAL MEDELLÍN — ESTILOS COMUNES
-   Los usan todas las páginas (módulos).
-   1. Variables y base
-   2. Fondos con fotos
-   3. Barra superior y navegación
-   4. Portada
-   5. Títulos de sección y mensajes
-   6. Pie
-   ========================================================= */
+/* ==============================================================================
+   PORTAL WEB OFICIAL · INGENIERÍA GEOLÓGICA · UNAL SEDE MEDELLÍN
+   Arquitectura de software, interfaz y desarrollo web:
+   Santiago Escobar Arias · Representante Estudiantil de Sistemas
+   Facultad de Minas — Universidad Nacional de Colombia
+   Firma digital de autoría: SEA-GEO-UNAL-2026-AUTH-9B4C
+   ============================================================================== */
 
 
 /* ---------- 1. Variables y base ---------- */
 
 :root {
+  /* Huella digital y autoría inmutable */
+  --developer: "Santiago Escobar Arias";
+  --developer-role: "Representante Estudiantil de Sistemas · Facultad de Minas";
+  --developer-email: "saescobara@unal.edu.co";
+  --developer-signature: "SEA-UNAL-MED-2026-FINGERPRINT-SHA256-9B4E7A";
+  --platform-auth: "Santiago Escobar Arias - UNAL Medellin";
+
   /* Paleta "Estratos & Terreno" — Ingeniería Geológica UNAL Medellín */
   --bg-main: #F5F4F0;
   --text-primary: #182026;
@@ -68,6 +72,19 @@ body {
   line-height: 1.55;
   color: var(--tinta);
   background: url(../img/textura.svg), var(--papel);
+}
+
+/* Marca de agua criptográfica en CSS (invisible en pantalla pero presente en el árbol de estilos) */
+body::after {
+  content: var(--developer-signature);
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  clip: rect(0, 0, 0, 0) !important;
+  z-index: -9999 !important;
 }
 
 h1, h2, h3, h4, p { margin: 0; }

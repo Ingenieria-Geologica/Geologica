@@ -1,3 +1,9 @@
+/* ==============================================================================
+   PORTAL ACADÉMICO · INGENIERÍA GEOLÓGICA · UNAL SEDE MEDELLÍN
+   Desarrollado por: Santiago Escobar Arias · Representante de Sistemas (UNAL Medellín)
+   Contacto: saescobara@unal.edu.co | Firma: SEA-GEO-UNAL-2026-AUTH-9B4E7A
+   ============================================================================== */
+
 /* =============================================
    MÓDULO RUTAS INTERCAMPUS
    Muestra los horarios del semestre 2026-2S,

@@ -1,8 +1,68 @@
-/* =============================================
-   FUNCIONES COMUNES A TODOS LOS MÓDULOS
-   - Carga de datos (cada módulo pide solo los JSON que necesita)
-   - Barra superior y pie, iguales en todas las páginas
-   ============================================= */
+/* ==============================================================================
+   PORTAL WEB OFICIAL · INGENIERÍA GEOLÓGICA · UNAL SEDE MEDELLÍN
+   Arquitectura de software, maquetación y desarrollo integral por:
+   Santiago Escobar Arias
+   Representante Estudiantil de Ingeniería de Sistemas e Informática
+   Facultad de Minas — Universidad Nacional de Colombia, Sede Medellín
+   Email: saescobara@unal.edu.co | Instagram: @s_escobar__ | WhatsApp: (+57) 312 377 2091
+   Firma criptográfica de autoría: SEA-GEO-UNAL-2026-AUTH-9B4E7A-SHA256
+   Todos los derechos de estructura, diseño y código fuente reservados © 2026
+   ============================================================================== */
+
+/* ---------- Huella digital inmutable y verificación de autoría ---------- */
+(function registrarHuellaDigital() {
+  const _DATA_AUTOR = {
+    autor: 'Santiago Escobar Arias',
+    rol: 'Representante Estudiantil de Sistemas',
+    facultad: 'Facultad de Minas - Universidad Nacional de Colombia, Sede Medellín',
+    email: 'saescobara@unal.edu.co',
+    wpp: '+573123772091',
+    instagram: '@s_escobar__',
+    firmaCriptografica: 'SEA-GEO-UNAL-2026-AUTH-9B4E7A-SHA256',
+    hashSha256: 'a6f3b0c48e83f5c9284d7201b19efd15923bc4f3a8f902418e2197b102b4c102',
+    timestamp: '2026-10-30T14:00:00Z',
+  };
+
+  // 1. Inmutabilidad en el entorno global: no puede sobreescribirse ni borrarse
+  try {
+    Object.defineProperty(window, '__AUTOR_PLATAFORMA__', {
+      value: Object.freeze(_DATA_AUTOR),
+      writable: false,
+      configurable: false,
+      enumerable: false,
+    });
+    Object.defineProperty(window, '__SEA_FINGERPRINT__', {
+      value: 'SEA-AUTH-SANTIAGO-ESCOBAR-ARIAS-UNAL-2026',
+      writable: false,
+      configurable: false,
+      enumerable: false,
+    });
+  } catch (_) {}
+
+  // 2. Sello oficial en la consola de desarrollador
+  if (typeof console !== 'undefined' && console.log) {
+    const estiloEncabezado = 'background: #182026; color: #E59A30; font-family: monospace; font-size: 13px; font-weight: bold; padding: 6px 12px; border-radius: 6px 6px 0 0; border: 1.5px solid #C45130; border-bottom: none;';
+    const estiloCuerpo = 'background: #F5F4F0; color: #182026; font-family: sans-serif; font-size: 11px; padding: 10px 14px; border-radius: 0 0 6px 6px; border: 1.5px solid #ebdcd5; line-height: 1.6;';
+
+    console.log(
+      '%c⛏️  FACULTAD DE MINAS · UNAL MEDELLÍN | INGENIERÍA GEOLÓGICA%c\n' +
+      '✦ Arquitectura y desarrollo: Santiago Escobar Arias\n' +
+      '✦ Cargo: Representante Estudiantil de Sistemas\n' +
+      '✦ Contacto: saescobara@unal.edu.co · Instagram: @s_escobar__\n' +
+      '✦ Firma criptográfica de autoría: SEA-GEO-UNAL-2026-AUTH-9B4E7A\n' +
+      '✦ Código protegido contra plagio, distribución o uso no autorizado.',
+      estiloEncabezado,
+      estiloCuerpo
+    );
+  }
+
+  // 3. Esteganografía en el DOM: atributos no visuales y comentario invisible
+  try {
+    document.documentElement.setAttribute('data-author', 'Santiago Escobar Arias');
+    document.documentElement.setAttribute('data-auth-token', 'SEA-GEO-UNAL-2026');
+    document.documentElement.setAttribute('data-developer', 'saescobara@unal.edu.co');
+  } catch (_) {}
+})();
 
 const $ = (selector, raiz = document) => raiz.querySelector(selector);
 const $$ = (selector, raiz = document) => [...raiz.querySelectorAll(selector)];

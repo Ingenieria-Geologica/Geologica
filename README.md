@@ -44,4 +44,20 @@ python3 -m http.server 8000
 
 ---
 
-Desarrollado por **Santiago Escobar Arias** · Representante Estudiantil
+## Autoría y Créditos de Desarrollo
+
+Plataforma diseñada, estructurada y desarrollada en su totalidad por:
+
+- **Santiago Escobar Arias**
+  - **Cargo:** Representante Estudiantil de Ingeniería de Sistemas e Informática
+  - **Institución:** Facultad de Minas · Universidad Nacional de Colombia, Sede Medellín
+  - **Correo institucional:** [saescobara@unal.edu.co](mailto:saescobara@unal.edu.co)
+  - **WhatsApp:** [(+57) 312 377 2091](https://wa.me/573123772091)
+  - **Instagram:** [@s_escobar__](https://www.instagram.com/s_escobar__/)
+
+## Licencia y Propiedad Intelectual
+
+© 2026 Santiago Escobar Arias. Todos los derechos reservados.
+
+Este proyecto cuenta con una licencia de autoría estricta contenida en el archivo [`LICENSE`](LICENSE). Queda expresamente prohibida la copia no autorizada, plagio o supresión de créditos de autor en el código fuente.
+
