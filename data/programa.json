@@ -1,0 +1,41 @@
+{
+  "nombre": "Ingeniería Geológica",
+  "universidad": "Universidad Nacional de Colombia",
+  "sede": "Medellín",
+  "facultad": "Facultad de Minas",
+  "lema": "Trabajo y Rectitud",
+  "descripcion": [
+    "El programa de Ingeniería Geológica de la Facultad de Minas forma profesionales íntegros y altamente capacitados para aplicar conocimientos en ciencias básicas, geología, geotecnia y técnicas de la ingeniería al servicio del desarrollo sostenible y el estudio del territorio.",
+    "Nuestros ingenieros geólogos lideran la exploración y aprovechamiento de recursos minerales, energéticos y aguas subterráneas, la investigación de materiales y macizos rocosos para obras civiles, la identificación y mitigación de amenazas naturales y riesgos geológicos, y la planificación territorial mediante sensores remotos y sistemas de información geográfica."
+  ],
+  "ficha": [
+    { "etiqueta": "Título que otorga", "valor": "Ingeniero(a) Geólogo(a)" },
+    { "etiqueta": "Créditos del plan", "valor": "180" },
+    { "etiqueta": "Duración del plan", "valor": "10 semestres" },
+    { "etiqueta": "Modalidad", "valor": "Presencial" },
+    { "etiqueta": "Jornada", "valor": "Diurna" },
+    { "etiqueta": "Sede y facultad", "valor": "Medellín · Facultad de Minas" },
+    { "etiqueta": "Área Curricular", "valor": "Recursos Minerales" },
+    { "etiqueta": "Código SNIES", "valor": "126" },
+    { "etiqueta": "Código SIA", "valor": "3536" },
+    { "etiqueta": "Año de creación", "valor": "1911 (Escuela de Minas)" }
+  ],
+  "cifras": [
+    { "valor": "180", "texto": "créditos" },
+    { "valor": "10", "texto": "semestres" },
+    { "valor": "Presencial", "texto": "jornada diurna" },
+    { "valor": "126", "texto": "código SNIES" }
+  ],
+  "acreditacion": {
+    "estado": "Programa acreditado en alta calidad",
+    "hitos": [
+      { "anio": "Acreditado", "texto": "Programa acreditado en Alta Calidad por el Ministerio de Educación Nacional de Colombia." },
+      { "anio": "Tradición", "texto": "Programa pionero en Colombia y referente internacional en Ciencias de la Tierra, Geotecnia y Exploración de Recursos." }
+    ],
+    "nota": "Para conocer resoluciones y fechas de vigencia actuales, consulta a la Vicedecanatura Académica o la Dirección del Área Curricular de Recursos Minerales."
+  },
+  "fuentes": [
+    { "titulo": "Portal Oficial Ingeniería Geológica · Facultad de Minas", "url": "https://old-minas.medellin.unal.edu.co/formacion/pregrado/ingenieriageologica" },
+    { "titulo": "Facultad de Minas · UNAL Medellín", "url": "https://minas.medellin.unal.edu.co/" }
+  ]
+}

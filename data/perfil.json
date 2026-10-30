@@ -1,0 +1,27 @@
+{
+  "titulo": "Perfil del Ingeniero Geólogo Egresado",
+  "intro": "Un profesional formado bajo el lema de la Facultad de Minas, «Trabajo y Rectitud», con una sólida fundamentación científica en Ciencias de la Tierra, geotecnia, exploración de recursos y gestión territorial.",
+  "rasgos": [
+    {
+      "icono": "ciencia",
+      "titulo": "Exploración y Recursos Sostenibles",
+      "texto": "Planifica, investiga y dirige proyectos de exploración, evaluación cuantitativa y aprovechamiento sostenible de recursos minerales, hidrocarburos, geotermia y aguas subterráneas."
+    },
+    {
+      "icono": "gestion",
+      "titulo": "Geotecnia y Obras Civiles",
+      "texto": "Caracteriza macizos rocosos y depósitos de suelo con rigor científico, brindando el diagnóstico geológico-geotécnico indispensable para el diseño y construcción de obras civiles e infraestructura."
+    },
+    {
+      "icono": "equipo",
+      "titulo": "Gestión del Riesgo y Medio Ambiente",
+      "texto": "Identifica, evalúa y mitiga amenazas naturales, procesos de remoción en masa, sismicidad y riesgos geológicos, formulando medidas de prevención y ordenamiento ambiental del territorio."
+    },
+    {
+      "icono": "empresa",
+      "titulo": "Geomática, SIG y Cartografía",
+      "texto": "Genera cartografía temática especializada mediante sensores remotos, teledetección y Sistemas de Información Geográfica (SIG), integrando modelamiento tridimensional del subsuelo."
+    }
+  ],
+  "fuente": "Programa Curricular y Proyecto Educativo del Programa (PEP) de Ingeniería Geológica · Facultad de Minas, Sede Medellín."
+}

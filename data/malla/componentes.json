@@ -1,0 +1,120 @@
+{
+  "componentes": [
+    {
+      "id": "fundamentacion",
+      "nombre": "Fundamentación",
+      "color": "#8E6BB8",
+      "descripcion": "Ciencias básicas: matemáticas, física, química, programación y optativas de fundamentación."
+    },
+    {
+      "id": "disciplinar",
+      "nombre": "Formación disciplinar o profesional",
+      "color": "#2B5346",
+      "descripcion": "Geología básica, geología aplicada, herramientas de apoyo, proyectos en ingeniería y trabajo de grado."
+    },
+    {
+      "id": "libre-eleccion",
+      "nombre": "Libre elección",
+      "color": "#E59A30",
+      "descripcion": "Créditos que el estudiante elige libremente según sus intereses formativos."
+    }
+  ],
+  "agrupaciones": [
+    {
+      "id": "matematicas-estadistica",
+      "componente": "fundamentacion",
+      "nombre": "Matemáticas, Probabilidad y Estadística",
+      "exigidos": 19,
+      "obligatorios": 19,
+      "optativos": 0
+    },
+    {
+      "id": "fisica",
+      "componente": "fundamentacion",
+      "nombre": "Física",
+      "exigidos": 4,
+      "obligatorios": 4,
+      "optativos": 0
+    },
+    {
+      "id": "quimica",
+      "componente": "fundamentacion",
+      "nombre": "Química",
+      "exigidos": 6,
+      "obligatorios": 6,
+      "optativos": 0
+    },
+    {
+      "id": "informatica",
+      "componente": "fundamentacion",
+      "nombre": "Herramientas de Informática",
+      "exigidos": 3,
+      "obligatorios": 3,
+      "optativos": 0
+    },
+    {
+      "id": "optativas-fundamentacion",
+      "componente": "fundamentacion",
+      "nombre": "Optativas de Fundamentación",
+      "exigidos": 12,
+      "obligatorios": 0,
+      "optativos": 12
+    },
+    {
+      "id": "geologia-basica",
+      "componente": "disciplinar",
+      "nombre": "Geología Básica",
+      "exigidos": 38,
+      "obligatorios": 38,
+      "optativos": 0
+    },
+    {
+      "id": "geologia-aplicada",
+      "componente": "disciplinar",
+      "nombre": "Geología Aplicada",
+      "exigidos": 24,
+      "obligatorios": 24,
+      "optativos": 0
+    },
+    {
+      "id": "herramientas-geologia",
+      "componente": "disciplinar",
+      "nombre": "Herramientas de Apoyo a la Geología",
+      "exigidos": 6,
+      "obligatorios": 6,
+      "optativos": 0
+    },
+    {
+      "id": "proyectos",
+      "componente": "disciplinar",
+      "nombre": "Proyectos en Ingeniería",
+      "exigidos": 10,
+      "obligatorios": 10,
+      "optativos": 0
+    },
+    {
+      "id": "optativas-disciplinares",
+      "componente": "disciplinar",
+      "nombre": "Optativas Disciplinares",
+      "exigidos": 16,
+      "obligatorios": 0,
+      "optativos": 16
+    },
+    {
+      "id": "trabajo-grado",
+      "componente": "disciplinar",
+      "nombre": "Trabajo de Grado",
+      "exigidos": 6,
+      "obligatorios": 6,
+      "optativos": 0
+    },
+    {
+      "id": "libre-eleccion",
+      "componente": "libre-eleccion",
+      "nombre": "Libre elección",
+      "exigidos": 36,
+      "obligatorios": 0,
+      "optativos": 36
+    }
+  ]
+}

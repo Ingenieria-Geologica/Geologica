@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gemma",
+    "nombre": "GEMMA",
+    "tipo": "Grupo de investigación",
+    "color": "#C45130",
+    "enlace": "https://minas.medellin.unal.edu.co/",
+    "descripcion": "El Grupo de Investigación en Georrecursos, Minería y Medio Ambiente (GEMMA) está adscrito a la Facultad de Minas de la UNAL Sede Medellín. Integra líneas de investigación en geología regional, metalogenia, petrología, geodinámica y evaluación ambiental de recursos geológicos en el territorio colombiano."
+  },
+  {
+    "id": "ignea",
+    "nombre": "IGNEA",
+    "tipo": "Grupo de investigación",
+    "color": "#2B5346",
+    "enlace": "https://minas.medellin.unal.edu.co/",
+    "descripcion": "IGNEA es un grupo de investigación enfocado en los recursos del subsuelo, caracterización avanzada de materiales geológicos, economía de los recursos minerales y sostenibilidad en la ingeniería de la Tierra."
+  },
+  {
+    "id": "geotecnia",
+    "nombre": "Semillero Geotecnia",
+    "tipo": "Semillero de investigación",
+    "color": "#E59A30",
+    "enlace": "https://minas.medellin.unal.edu.co/",
+    "descripcion": "Espacio académico para estudiantes de Ingeniería Geológica apasionados por la mecánica de suelos, geomecánica de rocas, estabilidad de taludes y proyectos de ingeniería geotécnica aplicada."
+  },
+  {
+    "id": "geomatica",
+    "nombre": "Semillero SIG & Sensores",
+    "tipo": "Semillero estudiantil",
+    "color": "#182026",
+    "enlace": "https://minas.medellin.unal.edu.co/",
+    "descripcion": "Semillero dedicado al procesamiento de imágenes satelitales, fotogrametría con drones, análisis espacial y modelado geológico 3D aplicado a las ciencias de la Tierra."
+  }
+]

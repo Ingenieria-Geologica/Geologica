@@ -1,0 +1,826 @@
+[
+  {
+    "codigo": "1000004-M",
+    "nombre": "Cálculo Diferencial",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-estadistica",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "1000008-M",
+    "nombre": "Geometría Vectorial y Analítica",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-estadistica",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3006829",
+    "nombre": "Química General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "quimica",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007000",
+    "nombre": "Geología Física",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3010437",
+    "nombre": "Introducción a la Ingeniería Geológica",
+    "creditos": 2,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "1000005-M",
+    "nombre": "Cálculo Integral",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-estadistica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000004-M"
+    ]
+  },
+  {
+    "codigo": "1000003-M",
+    "nombre": "Álgebra Lineal",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "matematicas-estadistica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000008-M"
+    ]
+  },
+  {
+    "codigo": "1000019-M",
+    "nombre": "Física Mecánica",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "fisica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "1000004-M",
+      "1000008-M"
+    ]
+  },
+  {
+    "codigo": "3007714",
+    "nombre": "Mineralogía",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "3007000"
+    ]
+  },
+  {
+    "codigo": "3007767",
+    "nombre": "Elementos de Geología Estructural",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 2,
+    "prerrequisitos": [
+      "3007000"
+    ]
+  },
+  {
+    "codigo": "3010435",
+    "nombre": "Fundamentos de Programación",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "informatica",
+    "semestre": 3,
+    "prerrequisitos": [
+      "1000003-M"
+    ]
+  },
+  {
+    "codigo": "3007473",
+    "nombre": "Mineralogía Óptica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 3,
+    "prerrequisitos": [
+      "3007714"
+    ]
+  },
+  {
+    "codigo": "3010478",
+    "nombre": "Termodinámica General",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "quimica",
+    "semestre": 3,
+    "prerrequisitos": [
+      "1000019-M"
+    ]
+  },
+  {
+    "codigo": "3010651",
+    "nombre": "Estadística I",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "matematicas-estadistica",
+    "semestre": 4,
+    "prerrequisitos": [
+      "1000005-M"
+    ]
+  },
+  {
+    "codigo": "3010447",
+    "nombre": "Mecánica de Suelos",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 4,
+    "prerrequisitos": [
+      "3007000",
+      "1000019-M"
+    ]
+  },
+  {
+    "codigo": "3007773",
+    "nombre": "Petrología Ígnea",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 4,
+    "prerrequisitos": [
+      "3007473"
+    ]
+  },
+  {
+    "codigo": "3007431",
+    "nombre": "Petrología Sedimentaria",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 4,
+    "prerrequisitos": [
+      "3007473"
+    ]
+  },
+  {
+    "codigo": "3010408",
+    "nombre": "Fundamentos de Proyectos en Ingeniería",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 4,
+    "prerrequisitos": [
+      "3010437"
+    ]
+  },
+  {
+    "codigo": "3007709",
+    "nombre": "Geomorfología",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 5,
+    "prerrequisitos": [
+      "3007000"
+    ]
+  },
+  {
+    "codigo": "3007456",
+    "nombre": "Geomecánica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 5,
+    "prerrequisitos": [
+      "3010447"
+    ]
+  },
+  {
+    "codigo": "3007781",
+    "nombre": "Geología de Campo I",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 5,
+    "prerrequisitos": [
+      "3007714",
+      "3007767"
+    ]
+  },
+  {
+    "codigo": "3007772",
+    "nombre": "Petrología Metamórfica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 5,
+    "prerrequisitos": [
+      "3007473"
+    ]
+  },
+  {
+    "codigo": "3006988",
+    "nombre": "Fundamentos de Sistemas de Información Geográfica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "herramientas-geologia",
+    "semestre": 5,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007779",
+    "nombre": "Depósitos Minerales y Metalogenia",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3007772",
+      "3007773",
+      "3007431"
+    ]
+  },
+  {
+    "codigo": "3007471",
+    "nombre": "Sensores Remotos",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "herramientas-geologia",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3007709"
+    ]
+  },
+  {
+    "codigo": "3007768",
+    "nombre": "Estratigrafía",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 6,
+    "prerrequisitos": [
+      "3007431"
+    ]
+  },
+  {
+    "codigo": "3007711",
+    "nombre": "Geotecnia",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3007456"
+    ]
+  },
+  {
+    "codigo": "3007769",
+    "nombre": "Geología de Campo II",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3007781",
+      "3007773",
+      "3007772",
+      "3007431",
+      "3007471"
+    ]
+  },
+  {
+    "codigo": "3007707",
+    "nombre": "Geofísica",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-basica",
+    "semestre": 7,
+    "prerrequisitos": [
+      "1000019-M"
+    ]
+  },
+  {
+    "codigo": "3010407",
+    "nombre": "Estructuración y Evaluación de Proyectos de Ingeniería",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 7,
+    "prerrequisitos": [
+      "3010408"
+    ]
+  },
+  {
+    "codigo": "3007448",
+    "nombre": "Recursos Energéticos",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 8,
+    "prerrequisitos": [
+      "3007431",
+      "3007767"
+    ]
+  },
+  {
+    "codigo": "3007461",
+    "nombre": "Geología de Campo III",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 8,
+    "prerrequisitos": [
+      "3007769"
+    ]
+  },
+  {
+    "codigo": "3010439",
+    "nombre": "Proyecto Integrado de Ingeniería",
+    "creditos": 4,
+    "obligatoria": true,
+    "agrupacion": "proyectos",
+    "semestre": 8,
+    "prerrequisitos": [
+      "3010407"
+    ]
+  },
+  {
+    "codigo": "3007718",
+    "nombre": "Rocas y Minerales en la Industria",
+    "creditos": 3,
+    "obligatoria": true,
+    "agrupacion": "geologia-aplicada",
+    "semestre": 9,
+    "prerrequisitos": [
+      "3007772",
+      "3007773",
+      "3007431"
+    ]
+  },
+  {
+    "codigo": "3007442",
+    "nombre": "Trabajo de Grado",
+    "creditos": 6,
+    "obligatoria": true,
+    "agrupacion": "trabajo-grado",
+    "semestre": 10,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "1000007-M",
+    "nombre": "Ecuaciones Diferenciales",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-fundamentacion",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000005-M",
+      "1000003-M"
+    ]
+  },
+  {
+    "codigo": "3006905",
+    "nombre": "Matemáticas Especiales",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-fundamentacion",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M"
+    ]
+  },
+  {
+    "codigo": "3006907",
+    "nombre": "Métodos Numéricos",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-fundamentacion",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000005-M",
+      "1000003-M"
+    ]
+  },
+  {
+    "codigo": "1000017-M",
+    "nombre": "Física de Electricidad y Magnetismo",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-fundamentacion",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000019-M",
+      "1000005-M"
+    ]
+  },
+  {
+    "codigo": "1000020-M",
+    "nombre": "Física de Oscilaciones, Ondas y Óptica",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-fundamentacion",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000007-M",
+      "1000017-M"
+    ]
+  },
+  {
+    "codigo": "3007710",
+    "nombre": "Geoquímica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3006829"
+    ]
+  },
+  {
+    "codigo": "3007467",
+    "nombre": "Neotectónica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007709"
+    ]
+  },
+  {
+    "codigo": "3007775",
+    "nombre": "Geología de Colombia",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007780",
+    "nombre": "Geología Ambiental",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007709"
+    ]
+  },
+  {
+    "codigo": "3007771",
+    "nombre": "Paleontología y Geología Histórica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007768"
+    ]
+  },
+  {
+    "codigo": "3007464",
+    "nombre": "Geología del Cuaternario",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007709"
+    ]
+  },
+  {
+    "codigo": "3007465",
+    "nombre": "Oceanografía",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007466",
+    "nombre": "Geología Marina",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007469",
+    "nombre": "Geodinámica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007773",
+      "3007772",
+      "3007431",
+      "3007767"
+    ]
+  },
+  {
+    "codigo": "3007468",
+    "nombre": "Estructural y Tectónica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007767"
+    ]
+  },
+  {
+    "codigo": "3007385",
+    "nombre": "Hidrología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010651",
+      "1000019-M"
+    ]
+  },
+  {
+    "codigo": "3007382",
+    "nombre": "Hidráulica Fluvial",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007385"
+    ]
+  },
+  {
+    "codigo": "3008724",
+    "nombre": "Geocronología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3010294",
+    "nombre": "Introducción a la Volcanología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007773"
+    ]
+  },
+  {
+    "codigo": "3009392",
+    "nombre": "Campo Marino",
+    "creditos": 2,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3011042",
+    "nombre": "Geomecánica Minera",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007456"
+    ]
+  },
+  {
+    "codigo": "3007450",
+    "nombre": "Estimación de Depósitos Minerales",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007452",
+    "nombre": "Modelación y Simulación de Yacimientos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007449",
+    "nombre": "Prospección de Recursos Hídricos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007454",
+    "nombre": "Prospección y Exploración de Recursos Minerales",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3008102",
+    "nombre": "Problemas Especiales de Geología",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3010257",
+    "nombre": "Microscopía Óptica de Minerales Opacos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007714"
+    ]
+  },
+  {
+    "codigo": "3007228",
+    "nombre": "Mineralogía Aplicada y de Procesos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007714"
+    ]
+  },
+  {
+    "codigo": "3007778",
+    "nombre": "Cartografía Geotécnica",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007711"
+    ]
+  },
+  {
+    "codigo": "3007453",
+    "nombre": "Gestión de los Recursos del Subsuelo",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007463",
+    "nombre": "Gestión de Riesgos Geológicos",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3007709"
+    ]
+  },
+  {
+    "codigo": "3007472",
+    "nombre": "Geoestadística",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3009002",
+    "nombre": "Análisis de Datos Ambientales",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3006960",
+    "nombre": "Mecánica de Fluidos",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "1000019-M",
+      "1000007-M"
+    ]
+  },
+  {
+    "codigo": "3010479",
+    "nombre": "Topografía",
+    "creditos": 4,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010437"
+    ]
+  },
+  {
+    "codigo": "3010674",
+    "nombre": "Estrategias de Gestión y Gerencia de Proyectos en Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ]
+  },
+  {
+    "codigo": "3010537",
+    "nombre": "Gestión de Proyectos de Desarrollo y Metodología General Ajustada",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ]
+  },
+  {
+    "codigo": "3010668",
+    "nombre": "Proyectos de Innovación y Desarrollo",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ]
+  },
+  {
+    "codigo": "3010669",
+    "nombre": "Toma de Decisión para el Diseño en Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010407"
+    ]
+  },
+  {
+    "codigo": "3010535",
+    "nombre": "Fundamentos de Ciclo de Vida para Ingeniería",
+    "creditos": 3,
+    "obligatoria": false,
+    "agrupacion": "optativas-disciplinares",
+    "semestre": null,
+    "prerrequisitos": [
+      "3010439"
+    ]
+  },
+  {
+    "codigo": "3010678",
+    "nombre": "Práctica de Extensión",
+    "creditos": 6,
+    "obligatoria": false,
+    "agrupacion": "trabajo-grado",
+    "semestre": null,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "3007443",
+    "nombre": "Cursos de Posgrado",
+    "creditos": 6,
+    "obligatoria": false,
+    "agrupacion": "trabajo-grado",
+    "semestre": null,
+    "prerrequisitos": []
+  }
+]
