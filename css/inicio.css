@@ -785,10 +785,10 @@
   clip-path: polygon(50% 0%, 96% 28%, 86% 76%, 62% 100%, 38% 100%, 14% 76%, 4% 28%);
   background: linear-gradient(140deg, #ffffff 0%, #fbf7fb 30%, #ede3ee 68%, #d9cadb 100%);
 }
-/* 8. SCG - Azurita marina / cuarzo azul */
+/* 8. SCG - Turquesa mineral / Crisocola viva (como su logo oficial) */
 .roca--scg .roca__cristal {
   clip-path: polygon(18% 6%, 82% 0%, 96% 40%, 94% 82%, 70% 98%, 24% 98%, 2% 74%, 0% 32%);
-  background: linear-gradient(140deg, #2b749c 0%, #1D5A7A 40%, #10394f 75%, #051a26 100%);
+  background: linear-gradient(140deg, #5db199 0%, #339e8c 36%, #126b61 72%, #053b36 100%);
 }
 /* 9. SME - Lapislázuli / sodalita profunda */
 .roca--sme .roca__cristal {
