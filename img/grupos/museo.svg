@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#E59A30"/>
+    </linearGradient>
+  </defs>
+  <!-- Transparent background for seamless rock blending -->
+  <circle cx="200" cy="200" r="186" fill="rgba(0,0,0,0.22)" stroke="url(#goldGrad)" stroke-width="6"/>
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#FFE082" stroke-width="2" stroke-dasharray="6,4" opacity="0.85"/>
+  
+  <!-- Ammonite / Fossil & Museum Temple -->
+  <g transform="translate(200, 168) scale(1.18)">
+    <!-- Ammonite Spiral -->
+    <path d="M0,0 C20,-10 35,5 30,25 C25,45 -5,50 -25,35 C-45,20 -40,-20 -15,-40 C15,-60 55,-50 75,-20 C95,15 85,65 50,90 C15,115 -45,105 -75,65" fill="none" stroke="url(#goldGrad)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M0,0 C10,-5 18,2 15,12 C12,22 -2,25 -12,17" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Crystal Facet -->
+    <polygon points="-5,-60 15,-80 35,-65 25,-45 5,-40" fill="url(#goldGrad)" opacity="0.35"/>
+  </g>
+
+  <!-- Typography with text shadow / outline for crisp legibility on rock -->
+  <text x="200" y="295" font-family="'Space Grotesk', 'Arial Black', sans-serif" font-size="23" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3" stroke="#000" stroke-width="1" paint-order="stroke fill">MUSEO DE GEOCIENCIAS</text>
+  <text x="200" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#FFE082" text-anchor="middle" letter-spacing="4">PATRIMONIO GEOLÓGICO</text>
+  <text x="200" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#F0EBE1" text-anchor="middle" letter-spacing="2">UNAL · FACULTAD DE MINAS</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="semaAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A0"/>
+      <stop offset="100%" stop-color="#E59A30"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#68D391"/>
+      <stop offset="100%" stop-color="#276749"/>
+    </linearGradient>
+  </defs>
+  <!-- Transparent / subtle dark translucent facet -->
+  <rect x="20" y="20" width="360" height="360" rx="55" fill="rgba(0,0,0,0.22)" stroke="url(#semaAccent)" stroke-width="6"/>
+  <rect x="34" y="34" width="332" height="332" rx="44" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  
+  <!-- Crossed Geologist Picks & Energy Atom / Leaf -->
+  <g transform="translate(200, 155)">
+    <!-- Pickaxe 1 -->
+    <path d="M-55,-40 C-20,-70 20,-70 55,-40 L45,-30 C15,-55 -15,-55 -45,-30 Z" fill="url(#semaAccent)"/>
+    <rect x="-6" y="-30" width="12" height="110" rx="6" fill="#EDEAE2" transform="rotate(-30 0 25)"/>
+    <!-- Pickaxe 2 -->
+    <rect x="-6" y="-30" width="12" height="110" rx="6" fill="#CBD5E0" transform="rotate(30 0 25)"/>
+    <!-- Center Mineral Crystal -->
+    <polygon points="0,-40 22,-10 14,28 -14,28 -22,-10" fill="url(#semaAccent)" stroke="#182026" stroke-width="3"/>
+    <!-- Sustainable Leaf -->
+    <path d="M0,28 C25,28 35,55 0,75 C-35,55 -25,28 0,28 Z" fill="url(#leafGrad)"/>
+    <line x1="0" y1="35" x2="0" y2="70" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="200" y="278" font-family="'Space Grotesk', 'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="6" stroke="#000" stroke-width="1.5" paint-order="stroke fill">SEMA</text>
+  <text x="200" y="308" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#FFE082" text-anchor="middle" letter-spacing="3">MINERO · ENERGÉTICO · AMBIENTAL</text>
+  <text x="200" y="332" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#F0EBE1" text-anchor="middle" letter-spacing="2">UNAL SEDE MEDELLÍN</text>
+</svg>

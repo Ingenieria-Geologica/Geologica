@@ -173,56 +173,147 @@ function pintarPerfil(perfil) {
 
 /* ---------- Grupos estudiantiles y semilleros (Roquitas Geológicas) ---------- */
 
-const ICONOS_ROCA = {
-  gemma: '<polygon points="6 2 18 2 22 8 12 22 2 8"/><line x1="2" y1="8" x2="22" y2="8"/><line x1="12" y1="22" x2="7.5" y2="8"/><line x1="12" y1="22" x2="16.5" y2="8"/><line x1="6" y1="2" x2="10.5" y2="8"/><line x1="18" y1="2" x2="13.5" y2="8"/>',
-  ignea: '<path d="m2 20 7-13 4 5 7 8z"/><path d="m9 7 3-3 3 3"/><path d="M12 2v2"/><path d="M5 20h14"/>',
-  geotecnia: '<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>',
-  geomatica: '<circle cx="12" cy="3" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m12.72-4.24a12 12 0 0 1 0 16.97m-16.96 0a12 12 0 0 1 0-16.97"/>',
+const ICONOS_REDES = {
+  instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>',
+  tiktok: '<svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.42a6.34 6.34 0 0 0-.86-.06 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.75a8.28 8.28 0 0 0 4.84 1.55V6.85a4.83 4.83 0 0 1-1.07-.16z"/></svg>',
+  hermes: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>',
+  web: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+  correo: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>',
 };
-
-const iconoRoca = (id) => `
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    ${ICONOS_ROCA[id] || '<polygon points="6 2 18 2 22 8 12 22 2 8"/><line x1="2" y1="8" x2="22" y2="8"/>'}
-  </svg>`;
 
 function pintarGrupos(grupos) {
   const roquitas = grupos.map((grupo) => {
-    const etiqueta = grupo.enlace ? 'a' : 'div';
-    const destino = grupo.enlace ? `href="${esc(grupo.enlace)}" target="_blank" rel="noopener noreferrer"` : '';
+    const redesHtml = (grupo.redes || []).map((r) => `
+      <a class="grupo-roca__red-btn grupo-roca__red-btn--${esc(r.tipo)}" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.texto)}">
+        <span class="grupo-roca__red-icono">${ICONOS_REDES[r.tipo] || ICONOS_REDES.web}</span>
+        <span>${esc(r.texto)}</span>
+      </a>
+    `).join('');
+
+    const docentesHtml = grupo.docentes ? `
+      <div class="grupo-roca__meta">
+        <span class="grupo-roca__meta-etiqueta">Docentes tutores / Líderes:</span>
+        <span class="grupo-roca__meta-valor">${esc(grupo.docentes)}</span>
+      </div>
+    ` : '';
+
+    const matrizHtml = grupo.matriz ? `
+      <div class="grupo-roca__meta">
+        <span class="grupo-roca__meta-etiqueta">Entidad / Grupo matriz:</span>
+        <span class="grupo-roca__meta-valor">${esc(grupo.matriz)}</span>
+      </div>
+    ` : '';
+
+    const requisitosHtml = grupo.requisitos ? `
+      <div class="grupo-roca__requisitos">
+        <strong>Requisitos de participación:</strong> ${esc(grupo.requisitos)}
+      </div>
+    ` : '';
+
     return `
-      <li class="grupo-roca" style="--color-roca: ${esc(grupo.color || '#C45130')}">
-        <${etiqueta} class="roca roca--${esc(grupo.id)}" ${destino} aria-label="${esc(grupo.nombre)} · ${esc(grupo.tipo)}">
-          <div class="roca__cristal">
-            <div class="roca__facetas" aria-hidden="true"></div>
-            <div class="roca__vetas" aria-hidden="true"></div>
-            <div class="roca__contenido">
-              <span class="roca__icono">${iconoRoca(grupo.id)}</span>
-              <strong class="roca__nombre">${esc(grupo.nombre)}</strong>
-              <span class="roca__tipo-badge">${esc(grupo.tipo)}</span>
+      <li class="grupo-roca" data-categoria="${esc(grupo.categoria)}" style="--color-roca: ${esc(grupo.color || '#C45130')}">
+        <!-- PIEDRA GEOLÓGICA INTERACTIVA: SE PARTE AL PASAR EL CURSOR O AL DAR CLICK -->
+        <a class="roca roca--${esc(grupo.id)}" href="${esc(grupo.enlace)}" target="_blank" rel="noopener noreferrer" title="Visitar ${esc(grupo.nombre)} · Abrir enlace oficial (${esc(grupo.enlaceTexto || 'Sitio Web')})" aria-label="${esc(grupo.nombre)} · Abrir página oficial">
+          <!-- Mitad Izquierda de la roca -->
+          <div class="roca__mitad roca__mitad--izq" aria-hidden="true">
+            <div class="roca__cristal">
+              <div class="roca__facetas"></div>
+              <div class="roca__vetas"></div>
+              <div class="roca__brillo"></div>
             </div>
-            <div class="roca__brillo" aria-hidden="true"></div>
           </div>
+
+          <!-- Mitad Derecha de la roca -->
+          <div class="roca__mitad roca__mitad--der" aria-hidden="true">
+            <div class="roca__cristal">
+              <div class="roca__facetas"></div>
+              <div class="roca__vetas"></div>
+              <div class="roca__brillo"></div>
+            </div>
+          </div>
+
+          <!-- Contenido central: Logo sobre la roca (desaparece al partirse) -->
+          <div class="roca__contenido">
+            <div class="roca__logo-container">
+              <img src="${esc(grupo.logo)}" alt="Logo oficial de ${esc(grupo.nombre)}" class="roca__logo-img" loading="lazy">
+            </div>
+          </div>
+
           <div class="roca__sombra" aria-hidden="true"></div>
-        </${etiqueta}>
+        </a>
 
         <div class="grupo-roca__info">
-          <p class="grupo-roca__descripcion">${esc(grupo.descripcion || '')}</p>
-          ${grupo.enlace ? `
-            <a class="grupo-roca__enlace" href="${esc(grupo.enlace)}" target="_blank" rel="noopener noreferrer">
-              <span>Conocer más</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>` : ''}
+          <h3 class="grupo-roca__titulo-completo">${esc(grupo.nombreCompleto || grupo.nombre)}</h3>
+          ${docentesHtml}
+          ${matrizHtml}
+          
+          <div class="grupo-roca__descripcion-wrap">
+            <p class="grupo-roca__descripcion">${esc(grupo.descripcion || '')}</p>
+          </div>
+
+          ${requisitosHtml}
+
+          <div class="grupo-roca__redes" aria-label="Canales y enlaces oficiales">
+            ${redesHtml}
+          </div>
         </div>
       </li>`;
   }).join('');
 
   $('#grupos-contenido').innerHTML = `
     <div class="seccion-titulo">
-      <p class="seccion-titulo__antetitulo">Comunidad estudiantil</p>
-      <h2 id="grupos-titulo">Grupos y semilleros</h2>
-      <p class="seccion-titulo__intro">Espacios donde estudiantes de Ingeniería Geológica aprenden haciendo, investigan en campo y aplican las ciencias de la Tierra.</p>
+      <p class="seccion-titulo__antetitulo">Comunidad estudiantil & científica</p>
+      <h2 id="grupos-titulo">Grupos, Semilleros y Capítulos</h2>
+      <p class="seccion-titulo__intro">Directorio oficial de espacios de investigación, aprendizaje técnico y vinculación profesional internacional en Ingeniería Geológica.</p>
     </div>
-    <ul class="grupos__lista">${roquitas}</ul>`;
+
+    <!-- Pestañas de filtrado interactivo -->
+    <div class="grupos__filtros" role="tablist" aria-label="Filtrar por categoría">
+      <button class="grupos__filtro is-active" type="button" data-filtro="todos" role="tab" aria-selected="true">
+        Todos <span class="grupos__filtro-conteo">12</span>
+      </button>
+      <button class="grupos__filtro" type="button" data-filtro="investigacion" role="tab" aria-selected="false">
+        Grupos y Semilleros de Investigación <span class="grupos__filtro-conteo">6</span>
+      </button>
+      <button class="grupos__filtro" type="button" data-filtro="agrupaciones" role="tab" aria-selected="false">
+        Agrupaciones y Capítulos Profesionales <span class="grupos__filtro-conteo">6</span>
+      </button>
+    </div>
+
+    <ul class="grupos__lista" id="grupos-lista">${roquitas}</ul>`;
+
+  // Controlador de filtros
+  const contenedorGrupos = $('#grupos-contenido');
+  const botonesFiltro = $$('.grupos__filtro', contenedorGrupos);
+  const tarjetas = $$('.grupo-roca', contenedorGrupos);
+
+  botonesFiltro.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      botonesFiltro.forEach((b) => {
+        b.classList.remove('is-active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-selected', 'true');
+
+      const filtro = btn.dataset.filtro;
+      tarjetas.forEach((tarjeta) => {
+        if (filtro === 'todos' || tarjeta.dataset.categoria === filtro) {
+          tarjeta.style.display = '';
+        } else {
+          tarjeta.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Efecto táctil y de clic: la roca se parte al hacer clic
+  $$('.roca', contenedorGrupos).forEach((roca) => {
+    roca.addEventListener('click', () => {
+      roca.classList.add('is-partida');
+      setTimeout(() => roca.classList.remove('is-partida'), 900);
+    });
+  });
 }
 
 

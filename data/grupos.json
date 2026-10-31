@@ -1,34 +1,285 @@
 [
   {
+    "id": "ccus",
+    "nombre": "Semillero CCUS (CO₂)",
+    "nombreCompleto": "Semillero de Investigación en CCUS (Captura, Uso y Almacenamiento de CO₂)",
+    "tipo": "Semillero de investigación",
+    "categoria": "investigacion",
+    "color": "#2B5346",
+    "logo": "img/grupos/semillero-co2.png",
+    "enlace": "https://www.instagram.com/semilleroco2/",
+    "enlaceTexto": "Instagram @semilleroco2",
+    "docentes": "Cesar Javier Vinasco (cvinasco@unal.edu.co) | Ana María Roldán Ortíz (arodano@unal.edu.co)",
+    "matriz": "GET – Grupo de Tectónica y Geología Estructural",
+    "descripcion": "Espacio de formación e investigación interdisciplinar enfocado en los procesos de captura, uso y geoalmacenamiento de CO₂ (CCUS) desde una perspectiva geológica. Sus actividades comprenden la caracterización petrográfica y mineralógica de rocas, el estudio de procesos de mineralización de CO₂, el almacenamiento en trampas subterráneas profundas y la evaluación de propiedades petrofísicas en materiales geológicos.",
+    "requisitos": "Estudiantes de 2.° semestre en adelante, con interés en la investigación geocientífica relacionada con CCUS, caracterización de rocas, técnicas de laboratorio y propiedades petrofísicas.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/semilleroco2/",
+        "texto": "@semilleroco2"
+      },
+      {
+        "tipo": "hermes",
+        "url": "https://hermes.unal.edu.co/",
+        "texto": "Ficha Hermes (GET ID 2376 / Semillero ID 3483)"
+      }
+    ]
+  },
+  {
     "id": "gemma",
     "nombre": "GEMMA",
+    "nombreCompleto": "GEMMA – Grupo de Investigación en Georrecursos, Minería y Medio Ambiente",
     "tipo": "Grupo de investigación",
-    "color": "#C45130",
-    "enlace": "https://minas.medellin.unal.edu.co/",
-    "descripcion": "El Grupo de Investigación en Georrecursos, Minería y Medio Ambiente (GEMMA) está adscrito a la Facultad de Minas de la UNAL Sede Medellín. Integra líneas de investigación en geología regional, metalogenia, petrología, geodinámica y evaluación ambiental de recursos geológicos en el territorio colombiano."
+    "categoria": "investigacion",
+    "color": "#EAEFF5",
+    "logo": "img/grupos/gemma.png",
+    "enlace": "https://www.instagram.com/gemma_unal/",
+    "enlaceTexto": "Instagram @gemma_unal",
+    "docentes": "Dr. Oswaldo Ordóñez Carmona, PhD (oordonezc@unal.edu.co)",
+    "descripcion": "Grupo interdisciplinario adscrito a la Facultad de Minas que desarrolla proyectos de investigación aplicada y extensión universitaria con el sector público, privado y comunidades territoriales. Su trabajo abarca la exploración y prospección de georrecursos, la sostenibilidad ambiental en proyectos mineros e industriales, la geología económica y la evaluación socioeconómica del aprovechamiento minero-energético.",
+    "requisitos": "Capacidad de liderazgo, iniciativa y toma de decisiones para la coordinación de proyectos en investigación científica y extensión universitaria.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/gemma_unal/",
+        "texto": "@gemma_unal"
+      },
+      {
+        "tipo": "tiktok",
+        "url": "https://www.tiktok.com/@gemma_unal",
+        "texto": "TikTok @gemma_unal"
+      },
+      {
+        "tipo": "hermes",
+        "url": "https://hermes.unal.edu.co/",
+        "texto": "Ficha Oficial Hermes (ID 626)"
+      }
+    ]
   },
   {
-    "id": "ignea",
-    "nombre": "IGNEA",
-    "tipo": "Grupo de investigación",
-    "color": "#2B5346",
-    "enlace": "https://minas.medellin.unal.edu.co/",
-    "descripcion": "IGNEA es un grupo de investigación enfocado en los recursos del subsuelo, caracterización avanzada de materiales geológicos, economía de los recursos minerales y sostenibilidad en la ingeniería de la Tierra."
-  },
-  {
-    "id": "geotecnia",
-    "nombre": "Semillero Geotecnia",
+    "id": "museo",
+    "nombre": "Museo y Patrimonio Geológico",
+    "nombreCompleto": "Semillero de Museo y Patrimonio Geológico",
     "tipo": "Semillero de investigación",
-    "color": "#E59A30",
-    "enlace": "https://minas.medellin.unal.edu.co/",
-    "descripcion": "Espacio académico para estudiantes de Ingeniería Geológica apasionados por la mecánica de suelos, geomecánica de rocas, estabilidad de taludes y proyectos de ingeniería geotécnica aplicada."
+    "categoria": "investigacion",
+    "color": "#A36224",
+    "logo": "img/grupos/museo.svg",
+    "enlace": "https://www.instagram.com/museodegeocienciasun/",
+    "enlaceTexto": "Instagram @museodegeocienciasun",
+    "docentes": "Dra. Marion B. Weber, PhD | José Carlos Ortega Álvarez",
+    "matriz": "Museo de Geociencias de la Facultad de Minas",
+    "descripcion": "Trabaja en la investigación, estudio, protección, conservación y divulgación del patrimonio geológico, paleontológico y arqueológico. Desarrolla la catalogación de las colecciones de rocas, minerales y fósiles del Museo de Geociencias, investigaciones sobre proveniencia de material lítico arqueológico (culturas Tairona y Marrón Inciso) y estudios de micromorfología de suelos.",
+    "requisitos": "Estudiantes de 2.° semestre en adelante con interés en patrimonio geoarqueológico, curaduría de colecciones museales y divulgación de las geociencias.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/museodegeocienciasun/",
+        "texto": "@museodegeocienciasun"
+      },
+      {
+        "tipo": "correo",
+        "url": "mailto:mmineral_med@unal.edu.co",
+        "texto": "mmineral_med@unal.edu.co"
+      },
+      {
+        "tipo": "hermes",
+        "url": "https://hermes.unal.edu.co/",
+        "texto": "Ficha Hermes (ID 2394)"
+      }
+    ]
   },
   {
-    "id": "geomatica",
-    "nombre": "Semillero SIG & Sensores",
-    "tipo": "Semillero estudiantil",
-    "color": "#182026",
-    "enlace": "https://minas.medellin.unal.edu.co/",
-    "descripcion": "Semillero dedicado al procesamiento de imágenes satelitales, fotogrametría con drones, análisis espacial y modelado geológico 3D aplicado a las ciencias de la Tierra."
+    "id": "sema",
+    "nombre": "SEMA",
+    "nombreCompleto": "SEMA – Semillero Minero-Energético y Ambiental",
+    "tipo": "Semillero de investigación",
+    "categoria": "investigacion",
+    "color": "#B8741A",
+    "logo": "img/grupos/sema.svg",
+    "enlace": "mailto:lhsanche@unal.edu.co",
+    "enlaceTexto": "Correo: lhsanche@unal.edu.co",
+    "docentes": "Dr. Luis Hernán Sánchez Arredondo (lhsanche@unal.edu.co)",
+    "descripcion": "Espacio de investigación enfocado en la estimación, evaluación y aprovechamiento sostenible de georrecursos. Desarrolla proyectos en clasificación de reservas minerales, evaluación técnico-económica de yacimientos, gestión ambiental minera, geoeducación y formulación de iniciativas de geoturismo y preservación del patrimonio natural.",
+    "requisitos": "Estudiantes de Ingeniería Geológica y carreras afines interesados en la estimación de recursos rocosos/minerales, geología económica y sostenibilidad del sector energético y minero.",
+    "redes": [
+      {
+        "tipo": "correo",
+        "url": "mailto:lhsanche@unal.edu.co",
+        "texto": "lhsanche@unal.edu.co"
+      }
+    ]
+  },
+  {
+    "id": "gea",
+    "nombre": "GEA",
+    "nombreCompleto": "GEA – Grupo de Investigación y Semillero en Geología Ambiental",
+    "tipo": "Grupo y Semillero",
+    "categoria": "investigacion",
+    "color": "#EAEFF5",
+    "logo": "img/grupos/gea.png",
+    "enlace": "mailto:arendonr@unal.edu.co",
+    "enlaceTexto": "Contacto: arendonr@unal.edu.co",
+    "docentes": "Dr. Albeiro de Jesús Rendón Rivera (arendonr@unal.edu.co)",
+    "descripcion": "Estudia la interacción entre los procesos geológicos y la ocupación humana para promover la sostenibilidad y la gestión del riesgo. Sus líneas de trabajo abarcan la gestión de riesgos naturales y antrópicos (deslizamientos, sismicidad, dinámica fluvial), neotectónica, paleosismología, ordenamiento territorial, bioingeniería y protección del patrimonio geológico en Antioquia.",
+    "requisitos": "Estudiantes apasionados por la geodinámica externa, evaluación de amenazas socioambientales, reducción del riesgo de desastres y valoración del patrimonio geológico regional.",
+    "redes": [
+      {
+        "tipo": "correo",
+        "url": "mailto:arendonr@unal.edu.co",
+        "texto": "arendonr@unal.edu.co"
+      },
+      {
+        "tipo": "hermes",
+        "url": "https://hermes.unal.edu.co/",
+        "texto": "Ficha Oficial Hermes (ID 1053)"
+      }
+    ]
+  },
+  {
+    "id": "egeo",
+    "nombre": "EGEO",
+    "nombreCompleto": "EGEO – Grupo de Investigación en Geología y Geofísica",
+    "tipo": "Grupo de investigación",
+    "categoria": "investigacion",
+    "color": "#7C3A27",
+    "logo": "img/grupos/egeo.png",
+    "enlace": "https://hermes.unal.edu.co/",
+    "enlaceTexto": "Ficha Hermes Grupo EGEO",
+    "docentes": "Dr. Agustín Cardona Molina y equipo docente del Dpto. de Geociencias y Medio Ambiente",
+    "descripcion": "EGEO es uno de los grupos de investigación insignia y de mayor trayectoria académica en la Universidad Nacional de Colombia (categorizado en el Sistema Hermes / MinCiencias). Se dedica al estudio avanzado de la estratigrafía, tectónica regional, petrología, cartografía geológica detallada y geocronología de cuencas sedimentarias y cinturones rocosos en Colombia y Latinoamérica.",
+    "requisitos": "Estudiantes de pregrado (semilleristas) y posgrado (Maestría/Doctorado) en Ciencias de la Tierra e Ingeniería Geológica interesados en la caracterización estratigráfica, estructural, geocronológica y tectónica.",
+    "redes": [
+      {
+        "tipo": "hermes",
+        "url": "https://hermes.unal.edu.co/",
+        "texto": "Ficha Oficial Hermes (ID 2025)"
+      }
+    ]
+  },
+  {
+    "id": "geolatinas",
+    "nombre": "GeoLatinas Medellín",
+    "nombreCompleto": "GeoLatinas – Nódulo UNAL Medellín",
+    "tipo": "Agrupación estudiantil",
+    "categoria": "agrupaciones",
+    "color": "#EAEFF5",
+    "logo": "img/grupos/geolatinas.png",
+    "enlace": "https://www.instagram.com/geolatinas_medellin/",
+    "enlaceTexto": "Instagram @geolatinas_medellin",
+    "descripcion": "Organización internacional que busca empoderar, visibilizar e inspirar a mujeres y minorías en las ciencias de la tierra y planetarias. El nódulo UNAL Medellín desarrolla talleres de liderazgo, desarrollo profesional, mentorías entre pares, webinars técnicos e iniciativas de divulgación inclusiva.",
+    "requisitos": "Abierto a estudiantes de pregrado y posgrado de ciencias de la tierra comprometidxs con la equidad de género, la inclusión y la excelencia profesional en geociencias.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/geolatinas_medellin/",
+        "texto": "@geolatinas_medellin"
+      },
+      {
+        "tipo": "web",
+        "url": "https://geolatinas.org",
+        "texto": "Sitio Web GeoLatinas.org"
+      }
+    ]
+  },
+  {
+    "id": "scg",
+    "nombre": "SCG Estudiantil",
+    "nombreCompleto": "SCG – Capítulo Estudiantil de la Sociedad Colombiana de Geología (UNAL Medellín)",
+    "tipo": "Capítulo profesional estudiantil",
+    "categoria": "agrupaciones",
+    "color": "#1D5A7A",
+    "logo": "img/grupos/scg.png",
+    "enlace": "https://www.instagram.com/scgunalmed/",
+    "enlaceTexto": "Instagram @scgunalmed",
+    "descripcion": "Agrupación vinculada a la Sociedad Colombiana de Geología. Articula la comunidad estudiantil con el gremio profesional mediante la organización de la Semana Técnica de Geología e Ingeniería Geológica, talleres complementarios de software especializado (GIS, Datamine, Leapfrog), salidas de campo técnico-pedagógicas y conversatorios.",
+    "requisitos": "Estudiantes matriculados en pregrado de Ingeniería Geológica y posgrados afines de la Universidad Nacional de Colombia Sede Medellín.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/scgunalmed/",
+        "texto": "@scgunalmed"
+      }
+    ]
+  },
+  {
+    "id": "sme",
+    "nombre": "SME Student Chapter",
+    "nombreCompleto": "SME Student Chapter UNAL Medellín (Society for Mining, Metallurgy & Exploration)",
+    "tipo": "Capítulo estudiantil internacional",
+    "categoria": "agrupaciones",
+    "color": "#154868",
+    "logo": "img/grupos/sme.png",
+    "enlace": "https://www.instagram.com/sme_unalmed/",
+    "enlaceTexto": "Instagram @sme_unalmed",
+    "descripcion": "Capítulo universitario adscrito a la Society for Mining, Metallurgy & Exploration (SME). Conecta a los estudiantes de geología y minería con la industria minero-metalúrgica global, organizando conferencias técnicas, talleres prácticos de minería subterránea y a cielo abierto, salidas de campo e intercambios profesionales.",
+    "requisitos": "Estudiantes de Ingeniería Geológica, Ingeniería de Minas y Metalurgia u áreas afines interesados en la industria extractiva y minero-metalúrgica.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/sme_unalmed/",
+        "texto": "@sme_unalmed"
+      }
+    ]
+  },
+  {
+    "id": "seg",
+    "nombre": "SEG Student Chapter",
+    "nombreCompleto": "SEG Student Chapter UNAL Medellín (Society of Economic Geologists)",
+    "tipo": "Capítulo estudiantil internacional",
+    "categoria": "agrupaciones",
+    "color": "#B37D1A",
+    "logo": "img/grupos/seg.png",
+    "enlace": "https://www.instagram.com/seg_unalmed/",
+    "enlaceTexto": "Instagram @seg_unalmed",
+    "descripcion": "Capítulo universitario adscrito a la Society of Economic Geologists (SEG). Promueve la formación técnica y práctica en geología económica, exploración minera y caracterización de depósitos de minerales metálicos e industriales mediante minicursos de muestreo geológico, salidas a distritos mineros y conferencias internacionales.",
+    "requisitos": "Estudiantes con interés en la prospección de yacimientos minerales, geología económica e industria minero-extractiva.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/seg_unalmed/",
+        "texto": "@seg_unalmed"
+      }
+    ]
+  },
+  {
+    "id": "aapg",
+    "nombre": "AAPG Student Chapter",
+    "nombreCompleto": "AAPG Student Chapter UNAL Medellín (American Association of Petroleum Geologists)",
+    "tipo": "Capítulo estudiantil internacional",
+    "categoria": "agrupaciones",
+    "color": "#123962",
+    "logo": "img/grupos/aapg.png",
+    "enlace": "https://www.instagram.com/aapg_unalmed/",
+    "enlaceTexto": "Instagram @aapg_unalmed",
+    "descripcion": "Capítulo estudiantil afiliado a la American Association of Petroleum Geologists (AAPG). Enfilado al estudio de la sedimentología, estratigrafía de secuencias, geofísica aplicada, cuencas sedimentarias y la transición energética. Organiza talleres de software de simulación, webinars con la industria y participa en la competencia internacional Imperial Barrel Award (IBA).",
+    "requisitos": "Estudiantes de Ingeniería Geológica interesados en geología del petróleo, energía subterránea, geofísica y estratigrafía.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/aapg_unalmed/",
+        "texto": "@aapg_unalmed"
+      }
+    ]
+  },
+  {
+    "id": "arma",
+    "nombre": "ARMA Student Chapter",
+    "nombreCompleto": "ARMA Student Chapter UNAL Medellín (American Rock Mechanics Association)",
+    "tipo": "Capítulo estudiantil internacional",
+    "categoria": "agrupaciones",
+    "color": "#EAEFF5",
+    "logo": "img/grupos/arma.png",
+    "enlace": "https://www.instagram.com/armamedellin/",
+    "enlaceTexto": "Instagram @armamedellin",
+    "descripcion": "Capítulo especializado en la geomecánica, física de rocas y la ingeniería de macizos rocosos adscrito a la American Rock Mechanics Association. Promueve actividades académicas e industriales sobre estabilidad de taludes, túneles, geotecnia minera y diseño de obras subterráneas mediante talleres de laboratorio y visitas de obra.",
+    "requisitos": "Estudiantes con inclinación por la geotecnia, mecánica de rocas, ingeniería de minas y geología aplicada a obras civiles.",
+    "redes": [
+      {
+        "tipo": "instagram",
+        "url": "https://www.instagram.com/armamedellin/",
+        "texto": "@armamedellin"
+      }
+    ]
   }
 ]
