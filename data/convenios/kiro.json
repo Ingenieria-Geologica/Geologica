@@ -1,0 +1,89 @@
+{
+ "id": "kiro",
+ "queEs": "«Kiro for Students» es la alianza oficial entre Amazon Web Services (AWS) y la Universidad Nacional de Colombia (a través de la Dirección Nacional de Estrategia Digital - DNED). Kiro es un avanzado agente y entorno de desarrollo con Inteligencia Artificial que transforma ideas, especificaciones estructuradas y prompts en código real y listo para funcionar. Mediante este convenio, los estudiantes de la UNAL reciben 1 año GRATIS de suscripción con 1.000 créditos mensuales para impulsar proyectos académicos, de investigación, hackatones o el MVP de sus startups.",
+ "imagen": "img/kiro-unal.jpg",
+ "imagenAlt": "Afiche oficial: ¡Llegó Kiro a la UNAL! 1 año GRATIS de programación con Inteligencia Artificial - Convenio DNED / AWS",
+ "video": "https://www.youtube-nocookie.com/embed/_CjEy_mtIjM",
+ "quienes": [
+  "Estudiantes activos de pregrado y posgrado de la Universidad Nacional de Colombia (todas las sedes)",
+  "Comunidad universitaria con correo institucional activo (@unal.edu.co)"
+ ],
+ "incluye": [
+  "1.000 créditos gratuitos al mes durante 1 año completo (nivel Kiro Students / Pro)",
+  "Acceso completo a Kiro IDE, extensión para entornos de código, CLI y versión Kiro Web",
+  "Generación de código funcional, arquitectura estructurada, refactorización y pruebas automatizadas",
+  "Modelos avanzados de Inteligencia Artificial ejecutados en la infraestructura en la nube de AWS",
+  "Activación 100% gratuita, sin cobros ocultos ni necesidad de tarjeta de crédito"
+ ],
+ "requisitos": [
+  "Correo institucional activo con dominio @unal.edu.co",
+  "Ser estudiante activo matriculado en la Universidad Nacional de Colombia",
+  "Cuenta en Kiro (puedes ingresar con Google institucional, cuenta de GitHub o AWS Builder ID)",
+  "Validación académica en SheerID seleccionando «Universidad Nacional de Colombia»"
+ ],
+ "pasos": [
+  {
+   "titulo": "Entra a Kiro for Students",
+   "texto": "Ingresa a la página oficial de Kiro para estudiantes (kiro.dev/students) desde tu navegador, o abre la aplicación Kiro IDE si ya la tienes instalada en tu equipo."
+  },
+  {
+   "titulo": "Inicia sesión o regístrate en Kiro",
+   "texto": "Haz clic en «Sign In» o «Get Started». Puedes vincular tu cuenta de Google (recomendado usar tu correo @unal.edu.co), tu cuenta personal de GitHub o tu AWS Builder ID."
+  },
+  {
+   "titulo": "Dirígete a Ajustes y busca la sección Students",
+   "texto": "En tu perfil o panel de ajustes (Settings), abre la sección «Students» o haz clic en el banner promocional del Plan Estudiantil."
+  },
+  {
+   "titulo": "Selecciona la Universidad Nacional de Colombia",
+   "texto": "En la lista desplegable de universidades elegibles de Colombia, busca y selecciona «Universidad Nacional de Colombia»."
+  },
+  {
+   "titulo": "Verifica tu condición estudiantil mediante SheerID",
+   "texto": "Ingresa tu nombre y apellido completos (tal como aparecen registrados en el SIA), fecha de nacimiento y tu correo institucional @unal.edu.co. Si SheerID solicita documentación adicional, adjunta una foto o PDF de tu carnet vigente o comprobante de matrícula del SIA."
+  },
+  {
+   "titulo": "¡Disfruta tus 1.000 créditos mensuales!",
+   "texto": "Una vez aprobada la validación, tu cuenta se transformará de inmediato al plan «Kiro Students». Recibirás 1.000 créditos al mes durante 12 meses consecutivos para programar con Inteligencia Artificial."
+  }
+ ],
+ "enlaces": [
+  {
+   "texto": "Activar Kiro para Estudiantes (kiro.dev)",
+   "url": "https://kiro.dev/students",
+   "principal": true
+  },
+  {
+   "texto": "Ver Tutorial Oficial de Activación (YouTube)",
+   "url": "https://youtu.be/_CjEy_mtIjM?si=W2qTw-v7UpkoP_tz"
+  },
+  {
+   "texto": "Portal de la Dirección Nacional de Estrategia Digital (DNED)",
+   "url": "https://dned.unal.edu.co"
+  }
+ ],
+ "soporte": {
+  "texto": "Para inquietudes sobre el convenio o servicios de transformación digital, escribe a la Dirección Nacional de Estrategia Digital en",
+  "correo": "dned@unal.edu.co"
+ },
+ "consejos": [
+  "Los 1.000 créditos mensuales se renuevan cada mes pero no son acumulables (no se trasladan al siguiente ciclo mensual). ¡Aprovéchalos y pon a prueba tus ideas cada mes!",
+  "La validación con SheerID se efectúa una única vez por cuenta: verifica que tus nombres y apellidos coincidan exactamente con tu registro oficial de la universidad.",
+  "Puedes consultar el video tutorial oficial de la DNED de la UNAL (en el reproductor de arriba o en el botón de YouTube) donde se muestra el paso a paso detallado de la activación.",
+  "Al finalizar el año gratuito, tu cuenta pasará automáticamente a la modalidad Kiro Free sin cobros automáticos ni pérdida de tus proyectos creados."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Dirección Nacional de Estrategia Digital (DNED) · Universidad Nacional de Colombia",
+   "url": "https://dned.unal.edu.co"
+  },
+  {
+   "titulo": "Tutorial de activación en YouTube · Dirección Nacional de Estrategia Digital",
+   "url": "https://youtu.be/_CjEy_mtIjM?si=W2qTw-v7UpkoP_tz"
+  },
+  {
+   "titulo": "Kiro for Students · Amazon Web Services (AWS)",
+   "url": "https://kiro.dev/students"
+  }
+ ]
+}

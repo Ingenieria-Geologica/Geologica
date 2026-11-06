@@ -22,6 +22,8 @@ const ICONOS = {
   codigo: '<path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/>',
   terminal: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M13 15h4"/>',
   nota: '<path d="M9 18V6l11-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/>',
+  fantasma: '<path d="M9 10h.01"/><path d="M15 10h.01"/><path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"/>',
+  ia: '<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3z"/><path d="M19 5v4M17 7h4M5 17v4M3 19h4"/>',
 };
 const icono = (nombre) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONOS[nombre] || ''}</svg>`;
 const FLECHA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
@@ -147,6 +149,24 @@ function pintarDetalle(id) {
               </li>`).join('')}
           </ol>
         </section>
+
+        ${d.video ? `
+          <div class="detalle__video-bloque">
+            <h4>Tutorial en video oficial (DNED UNAL)</h4>
+            <div class="detalle__video-frame">
+              <iframe src="${esc(d.video)}" title="Video tutorial oficial de activación" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>` : ''}
+
+        ${d.imagen ? `
+          <div class="detalle__recurso-wrap">
+            <figure class="detalle__afiche">
+              <a href="${esc(d.imagen)}" target="_blank" rel="noopener noreferrer" title="Clic para ver el afiche oficial en alta resolución">
+                <img src="${esc(d.imagen)}" alt="${esc(d.imagenAlt || 'Afiche oficial del convenio')}" loading="lazy">
+              </a>
+              <figcaption>Afiche oficial · Dirección Nacional de Estrategia Digital (UNAL) · <a href="${esc(d.imagen)}" target="_blank" rel="noopener noreferrer">Ver en alta resolución</a></figcaption>
+            </figure>
+          </div>` : ''}
 
         <div class="enlaces">
           ${d.enlaces.map((e) => `

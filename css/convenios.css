@@ -258,6 +258,73 @@
 }
 
 
+
+/* Recursos multimedia en convenios (Videos oficiales y afiches) */
+.detalle__video-bloque {
+  margin-top: 26px;
+}
+.detalle__video-bloque h4 {
+  color: var(--azul);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.detalle__video-frame {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  padding-bottom: 56.25%;
+  height: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px -12px rgba(10, 44, 82, 0.45);
+  background: #000;
+  border: 1px solid var(--linea);
+}
+.detalle__video-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.detalle__recurso-wrap {
+  margin-top: 24px;
+}
+.detalle__afiche {
+  margin: 0;
+  max-width: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px -10px rgba(96, 43, 168, 0.35);
+  border: 1.5px solid #ebdcd5;
+  background: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.detalle__afiche:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -10px rgba(96, 43, 168, 0.5);
+}
+.detalle__afiche img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.detalle__afiche figcaption {
+  padding: 10px 14px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--tinta-suave);
+  background: #fbf9f7;
+  border-top: 1px solid #ebdcd5;
+}
+.detalle__afiche figcaption a {
+  color: var(--terracota);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .item__boton { grid-template-columns: auto 1fr; gap: 14px; padding: 14px; }
   .item__flecha { display: none; }
