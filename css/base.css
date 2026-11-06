@@ -732,6 +732,27 @@ body[data-pagina="inicio"] .portada.foto::after {
 .pie__contacto-link--drive:hover {
   color: #1255af;
 }
+.pie__contacto-link--icono {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #edf5fe;
+  color: var(--azul);
+  border: 1px solid rgba(22, 103, 194, 0.22);
+  transition: all .2s ease;
+  box-shadow: 0 2px 6px rgba(10, 44, 82, 0.08);
+}
+.pie__contacto-link--icono:hover {
+  background: var(--azul);
+  color: #ffffff;
+  border-color: var(--azul);
+  transform: translateY(-2px);
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(22, 103, 194, 0.3);
+}
 .pie__contacto-link svg {
   flex-shrink: 0;
 }
@@ -907,6 +928,27 @@ body[data-pagina="inicio"] .portada.foto::after {
   background: #25d366;
   border-color: #25d366;
   color: #fff;
+}
+
+.toast-autor__enlace--icono {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(22, 103, 194, 0.22);
+  box-shadow: 0 2px 6px rgba(10, 44, 82, 0.08);
+  transition: all .2s ease;
+}
+
+.toast-autor__enlace--icono:hover {
+  background: var(--azul);
+  color: #fff;
+  border-color: var(--azul);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(22, 103, 194, 0.3);
 }
 
 .toast-autor__btn-ok {

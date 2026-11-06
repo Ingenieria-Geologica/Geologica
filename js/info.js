@@ -782,7 +782,7 @@ function pintarAsesoria() {
     <ul class="info-asesoria__datos">
       <li><strong>Representación Estudiantil · Ing. Geológica:</strong> María Salomé Monsalve González (<a href="https://wa.me/573016703972" target="_blank" rel="noopener noreferrer">WhatsApp (+57) 301 670 3972</a> · <a href="mailto:Mmonsalveg@unal.edu.co">Mmonsalveg@unal.edu.co</a>) · <strong>Suplente:</strong> Sofía Franco Montoya · <a href="https://whatsapp.com/channel/0029VbAmtMII7BeInge1o61H" target="_blank" rel="noopener noreferrer"><strong>Canal Oficial de WhatsApp</strong></a> · <a href="https://www.instagram.com/inggeounal_repres/" target="_blank" rel="noopener noreferrer">@inggeounal_repres</a></li>
       <li><strong>Material de Estudio · Drive Oficial:</strong> <a href="https://drive.google.com/drive/folders/0AJTTimzRtO3zUk9PVA" target="_blank" rel="noopener noreferrer">Acceder a la Unidad de Geológica</a></li>
-      <li><strong>Desarrollo y Soporte Web:</strong> Santiago Escobar Arias · Representante de Sistemas (<a href="https://wa.me/573123772091" target="_blank" rel="noopener noreferrer">WhatsApp (+57) 312 377 2091</a>)</li>
+      <li><strong>Desarrollo y Soporte Web:</strong> Santiago Escobar Arias · Representante de Sistemas (<a href="mailto:saescobara@unal.edu.co">saescobara@unal.edu.co</a> · <a href="https://www.instagram.com/s_escobar__/" target="_blank" rel="noopener noreferrer">@s_escobar__</a>)</li>
       <li>Teléfono Facultad de Minas: ${esc(a.telefono)}</li>
       <li>${esc(a.direccion)}</li>
       <li><a href="${esc(a.solicitudes)}" target="_blank" rel="noopener noreferrer">Solicitudes estudiantiles de la Facultad de Minas</a></li>
