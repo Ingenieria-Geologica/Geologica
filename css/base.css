@@ -878,6 +878,12 @@ body[data-pagina="inicio"] .portada.foto::after {
   margin: 0;
 }
 
+.toast-autor__destacado {
+  color: #2563eb;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
 .toast-autor__mensaje strong {
   color: var(--azul-marino);
 }
